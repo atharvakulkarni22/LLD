@@ -15,3 +15,5 @@ J
 factory/CircleCreator.java,2\4\2420768697efac497295b5b86cd2ba06c035537f
 M
 factory/RectangleCreator.java,3\8\38168b1c042bf5d81cb9f819dd2247f0e5138a2e
+P
+ factory/ShapeFactoryCreator.java,7\a\7a7f1c7c9743c8341bd3804a0da1d6cc336dfd91

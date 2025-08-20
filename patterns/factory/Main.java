@@ -3,13 +3,15 @@ package factory;
 public class Main {
 
     public static void main(String[] args) {
-        ShapeFactoryCreator shape;
+        ShapeFactoryCreator shapeFactoryCreator;
 
-        shape = new RectangleCreator();
-        shape.draw();
+        shapeFactoryCreator = new RectangleCreator();
+        Shape rectangle = shapeFactoryCreator.getShape();
+        rectangle.draw();
 
-        shape = new CircleCreator();
-        shape.draw();
+        shapeFactoryCreator = new CircleCreator();
+        Shape circle = shapeFactoryCreator.getShape();
+        circle.draw();
     }
 }
 
